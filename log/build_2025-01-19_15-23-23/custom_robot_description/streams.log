@@ -1,0 +1,37 @@
+[0.035s] Invoking command in '/home/fra/master_ws_2/build/custom_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fra/ros2_ws/install/python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_2/build/custom_robot_description -- -j12 -l12
+[0.101s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.529s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[0.643s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.884s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.885s] -- Added test 'lint_cmake' to check CMake code style
+[0.887s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.890s] -- Added test 'xmllint' to check XML markup files
+[0.893s] -- Configuring done
+[0.902s] -- Generating done
+[0.909s] -- Build files have been written to: /home/fra/master_ws_2/build/custom_robot_description
+[0.971s] Invoked command in '/home/fra/master_ws_2/build/custom_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fra/ros2_ws/install/python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_2/build/custom_robot_description -- -j12 -l12
+[1.000s] Invoking command in '/home/fra/master_ws_2/build/custom_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fra/ros2_ws/install/python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/fra/master_ws_2/build/custom_robot_description
+[1.020s] -- Install configuration: ""
+[1.021s] -- Up-to-date: /home/fra/master_ws_2/install/custom_robot_description/share/custom_robot_description/launch
+[1.021s] -- Up-to-date: /home/fra/master_ws_2/install/custom_robot_description/share/custom_robot_description/launch/rviz.launch.py
+[1.021s] -- Installing: /home/fra/master_ws_2/install/custom_robot_description/share/custom_robot_description/urdf
+[1.021s] -- Installing: /home/fra/master_ws_2/install/custom_robot_description/share/custom_robot_description/urdf/custom_cobot.urdf.xacro
+[1.022s] -- Installing: /home/fra/master_ws_2/install/custom_robot_description/share/custom_robot_description/urdf/custom_robot_gazebo.xacro
+[1.022s] -- Installing: /home/fra/master_ws_2/install/custom_robot_description/share/custom_robot_description/urdf/custom_gripper.xacro
+[1.022s] -- Installing: /home/fra/master_ws_2/install/custom_robot_description/share/custom_robot_description/urdf/link_joint.xacro
+[1.023s] -- Up-to-date: /home/fra/master_ws_2/install/custom_robot_description/share/ament_index/resource_index/package_run_dependencies/custom_robot_description
+[1.023s] -- Installing: /home/fra/master_ws_2/install/custom_robot_description/share/ament_index/resource_index/parent_prefix_path/custom_robot_description
+[1.023s] -- Up-to-date: /home/fra/master_ws_2/install/custom_robot_description/share/custom_robot_description/environment/ament_prefix_path.sh
+[1.023s] -- Installing: /home/fra/master_ws_2/install/custom_robot_description/share/custom_robot_description/environment/ament_prefix_path.dsv
+[1.024s] -- Up-to-date: /home/fra/master_ws_2/install/custom_robot_description/share/custom_robot_description/environment/path.sh
+[1.024s] -- Installing: /home/fra/master_ws_2/install/custom_robot_description/share/custom_robot_description/environment/path.dsv
+[1.024s] -- Up-to-date: /home/fra/master_ws_2/install/custom_robot_description/share/custom_robot_description/local_setup.bash
+[1.025s] -- Up-to-date: /home/fra/master_ws_2/install/custom_robot_description/share/custom_robot_description/local_setup.sh
+[1.025s] -- Up-to-date: /home/fra/master_ws_2/install/custom_robot_description/share/custom_robot_description/local_setup.zsh
+[1.025s] -- Installing: /home/fra/master_ws_2/install/custom_robot_description/share/custom_robot_description/local_setup.dsv
+[1.025s] -- Installing: /home/fra/master_ws_2/install/custom_robot_description/share/custom_robot_description/package.dsv
+[1.026s] -- Up-to-date: /home/fra/master_ws_2/install/custom_robot_description/share/ament_index/resource_index/packages/custom_robot_description
+[1.026s] -- Up-to-date: /home/fra/master_ws_2/install/custom_robot_description/share/custom_robot_description/cmake/custom_robot_descriptionConfig.cmake
+[1.026s] -- Up-to-date: /home/fra/master_ws_2/install/custom_robot_description/share/custom_robot_description/cmake/custom_robot_descriptionConfig-version.cmake
+[1.026s] -- Up-to-date: /home/fra/master_ws_2/install/custom_robot_description/share/custom_robot_description/package.xml
+[1.030s] Invoked command in '/home/fra/master_ws_2/build/custom_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fra/ros2_ws/install/python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/fra/master_ws_2/build/custom_robot_description
