@@ -4,9 +4,15 @@ from launch.actions import DeclareLaunchArgument, ExecuteProcess
 from launch.conditions import IfCondition, UnlessCondition
 from launch.substitutions import LaunchConfiguration, Command
 from launch_ros.actions import Node
+from ament_index_python.packages import get_package_share_directory
 
 def generate_launch_description():
     ld = LaunchDescription()
+
+    package_share_dir = get_package_share_directory('custom_robot_description')
+    urdf_file = os.path.join(package_share_dir, 'urdf', 'custom_cobot.urdf.xacro')
+    rviz_config_file = os.path.join(package_share_dir, 'config', 'config.rviz')
+
     # Declare the use_gui argument
     use_gui_arg = DeclareLaunchArgument(
         name='use_gui', 
@@ -15,15 +21,7 @@ def generate_launch_description():
     )
 
     # Define the robot_description parameter using xacro
-    robot_description = Command(
-        [
-            'xacro ',
-            os.path.join(
-                os.getenv('AMENT_PREFIX_PATH', '').split(os.pathsep)[0],
-                'share/custom_robot_description/urdf/custom_cobot.urdf.xacro'
-            )
-        ]
-    )
+    robot_description = Command(['xacro ', urdf_file])
 
     # Nodes
     robot_state_publisher_node = Node(
@@ -35,13 +33,7 @@ def generate_launch_description():
     rviz_node = Node(
         package='rviz2',
         executable='rviz2',
-        arguments=[
-            '-d',
-            os.path.join(
-                os.getenv('AMENT_PREFIX_PATH', '').split(os.pathsep)[0],
-                'share/custom_robot_description/config/config.rviz'
-            )
-        ]
+        arguments=['-d', rviz_config_file]
     )
 
     joint_state_publisher_node = Node(

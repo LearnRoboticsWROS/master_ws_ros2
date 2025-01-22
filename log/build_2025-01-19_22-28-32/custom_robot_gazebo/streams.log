@@ -1,0 +1,55 @@
+[0.013s] Invoking command in '/home/fra/master_ws_2/build/custom_robot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fra/ros2_ws/install/python_pkg:/opt/ros/humble /usr/bin/cmake /home/fra/master_ws_2/src/custom_robot_gazebo -DCMAKE_INSTALL_PREFIX=/home/fra/master_ws_2/install/custom_robot_gazebo
+[0.102s] -- The C compiler identification is GNU 11.4.0
+[0.177s] -- The CXX compiler identification is GNU 11.4.0
+[0.186s] -- Detecting C compiler ABI info
+[0.254s] -- Detecting C compiler ABI info - done
+[0.264s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.264s] -- Detecting C compile features
+[0.265s] -- Detecting C compile features - done
+[0.269s] -- Detecting CXX compiler ABI info
+[0.361s] -- Detecting CXX compiler ABI info - done
+[0.369s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.369s] -- Detecting CXX compile features
+[0.369s] -- Detecting CXX compile features - done
+[0.373s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.511s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.597s] -- Found controller_manager: 2.46.0 (/opt/ros/humble/share/controller_manager/cmake)
+[0.646s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.652s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.662s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.676s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.694s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.915s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.918s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.949s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.989s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.993s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.005s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.008s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.015s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.024s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.034s] -- Looking for pthread.h
+[1.101s] -- Looking for pthread.h - found
+[1.101s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.170s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.171s] -- Found Threads: TRUE  
+[1.273s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[1.273s]   By not providing "Findjoint_state_publisher.cmake" in CMAKE_MODULE_PATH
+[1.273s]   this project has asked CMake to find a package configuration file provided
+[1.273s]   by "joint_state_publisher", but CMake did not find one.
+[1.273s] 
+[1.273s]   Could not find a package configuration file provided by
+[1.273s]   "joint_state_publisher" with any of the following names:
+[1.274s] 
+[1.274s]     joint_state_publisherConfig.cmake
+[1.274s]     joint_state_publisher-config.cmake
+[1.274s] 
+[1.274s]   Add the installation prefix of "joint_state_publisher" to CMAKE_PREFIX_PATH
+[1.274s]   or set "joint_state_publisher_DIR" to a directory containing one of the
+[1.274s]   above files.  If "joint_state_publisher" provides a separate development
+[1.274s]   package or SDK, be sure it has been installed.
+[1.274s] 
+[1.274s] [0m
+[1.274s] -- Configuring incomplete, errors occurred!
+[1.274s] See also "/home/fra/master_ws_2/build/custom_robot_gazebo/CMakeFiles/CMakeOutput.log".
+[1.281s] Invoked command in '/home/fra/master_ws_2/build/custom_robot_gazebo' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fra/ros2_ws/install/python_pkg:/opt/ros/humble /usr/bin/cmake /home/fra/master_ws_2/src/custom_robot_gazebo -DCMAKE_INSTALL_PREFIX=/home/fra/master_ws_2/install/custom_robot_gazebo

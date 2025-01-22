@@ -1,0 +1,2 @@
+Invoking command in '/home/fra/master_ws_2/build/custom_robot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fra/ros2_ws/install/python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_2/build/custom_robot_gazebo -- -j12 -l12
+Invoked command in '/home/fra/master_ws_2/build/custom_robot_gazebo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fra/ros2_ws/install/python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_2/build/custom_robot_gazebo -- -j12 -l12

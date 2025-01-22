@@ -1,0 +1,24 @@
+[0.010s] Invoking command in '/home/fra/master_ws_2/build/custom_robot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fra/ros2_ws/install/python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_2/build/custom_robot_gazebo -- -j12 -l12
+[0.044s] Invoked command in '/home/fra/master_ws_2/build/custom_robot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fra/ros2_ws/install/python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/fra/master_ws_2/build/custom_robot_gazebo -- -j12 -l12
+[0.045s] Invoking command in '/home/fra/master_ws_2/build/custom_robot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fra/ros2_ws/install/python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/fra/master_ws_2/build/custom_robot_gazebo
+[0.051s] -- Install configuration: ""
+[0.051s] -- Up-to-date: /home/fra/master_ws_2/install/custom_robot_gazebo/share/custom_robot_gazebo/launch
+[0.051s] -- Installing: /home/fra/master_ws_2/install/custom_robot_gazebo/share/custom_robot_gazebo/launch/spawn_robot.launch.py
+[0.052s] -- Up-to-date: /home/fra/master_ws_2/install/custom_robot_gazebo/share/custom_robot_gazebo/config
+[0.052s] -- Up-to-date: /home/fra/master_ws_2/install/custom_robot_gazebo/share/custom_robot_gazebo/config/joint_controllers.yaml
+[0.052s] -- Up-to-date: /home/fra/master_ws_2/install/custom_robot_gazebo/share/ament_index/resource_index/package_run_dependencies/custom_robot_gazebo
+[0.052s] -- Up-to-date: /home/fra/master_ws_2/install/custom_robot_gazebo/share/ament_index/resource_index/parent_prefix_path/custom_robot_gazebo
+[0.052s] -- Up-to-date: /home/fra/master_ws_2/install/custom_robot_gazebo/share/custom_robot_gazebo/environment/ament_prefix_path.sh
+[0.052s] -- Up-to-date: /home/fra/master_ws_2/install/custom_robot_gazebo/share/custom_robot_gazebo/environment/ament_prefix_path.dsv
+[0.052s] -- Up-to-date: /home/fra/master_ws_2/install/custom_robot_gazebo/share/custom_robot_gazebo/environment/path.sh
+[0.052s] -- Up-to-date: /home/fra/master_ws_2/install/custom_robot_gazebo/share/custom_robot_gazebo/environment/path.dsv
+[0.052s] -- Up-to-date: /home/fra/master_ws_2/install/custom_robot_gazebo/share/custom_robot_gazebo/local_setup.bash
+[0.052s] -- Up-to-date: /home/fra/master_ws_2/install/custom_robot_gazebo/share/custom_robot_gazebo/local_setup.sh
+[0.052s] -- Up-to-date: /home/fra/master_ws_2/install/custom_robot_gazebo/share/custom_robot_gazebo/local_setup.zsh
+[0.053s] -- Up-to-date: /home/fra/master_ws_2/install/custom_robot_gazebo/share/custom_robot_gazebo/local_setup.dsv
+[0.053s] -- Installing: /home/fra/master_ws_2/install/custom_robot_gazebo/share/custom_robot_gazebo/package.dsv
+[0.053s] -- Up-to-date: /home/fra/master_ws_2/install/custom_robot_gazebo/share/ament_index/resource_index/packages/custom_robot_gazebo
+[0.053s] -- Up-to-date: /home/fra/master_ws_2/install/custom_robot_gazebo/share/custom_robot_gazebo/cmake/custom_robot_gazeboConfig.cmake
+[0.053s] -- Up-to-date: /home/fra/master_ws_2/install/custom_robot_gazebo/share/custom_robot_gazebo/cmake/custom_robot_gazeboConfig-version.cmake
+[0.053s] -- Up-to-date: /home/fra/master_ws_2/install/custom_robot_gazebo/share/custom_robot_gazebo/package.xml
+[0.068s] Invoked command in '/home/fra/master_ws_2/build/custom_robot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fra/ros2_ws/install/python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/fra/master_ws_2/build/custom_robot_gazebo

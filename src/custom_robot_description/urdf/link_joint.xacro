@@ -82,4 +82,44 @@
         </transmission>
     </xacro:macro>
 
+    <ros2_control name="CobotHardware" type="system">
+        <hardware>
+            <plugin>ros2_control_demo_hardware/CobotSystemEffortOnlyHardware</plugin>
+            <!-- Modifica il plugin con quello effettivo che utilizzi -->
+        </hardware>
+        <joint name="base_link__link1">
+            <state_interface name="effort"/>
+            <command_interface name="effort"/>
+        </joint>
+        <joint name="link1__link2">
+            <state_interface name="effort"/>
+            <command_interface name="effort"/>
+        </joint>
+
+        <joint name="link2__link3">
+            <state_interface name="effort"/>
+            <command_interface name="effort"/>
+        </joint>
+
+        <joint name="link3__link4">
+            <state_interface name="effort"/>
+            <command_interface name="effort"/>
+        </joint>
+
+        <joint name="link4__link5">
+            <state_interface name="effort"/>
+            <command_interface name="effort"/>
+        </joint>
+
+        <joint name="link5__link6">
+            <state_interface name="effort"/>
+            <command_interface name="effort"/>
+        </joint>
+
+
+        <!-- Aggiungi altri giunti con lo stesso formato -->
+    </ros2_control>
+
+
+
 </robot>

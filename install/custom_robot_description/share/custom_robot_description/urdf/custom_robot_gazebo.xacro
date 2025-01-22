@@ -1,12 +1,27 @@
 <?xml version = "1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-    <gazebo>
+    <!-- <gazebo>
         <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
             <robotNamespace>/cobot</robotNamespace>
-            <!-- <robotSimType>gazebo_ros_control/DefaultRobotHWSim</robotSimType> -->
+            <robotSimType>gazebo_ros_control/DefaultRobotHWSim</robotSimType>
+            <ros2_control>
+                <param name="robot_description">robot_description</param>
+            </ros2_control>
+        </plugin>
+    </gazebo> -->
+
+
+    <gazebo>
+        <plugin name="gazebo_ros2_control" filename = "libgazebo_ros2_control.so">
+            <parameters>$(find custom_robot_gazebo)/config/joint_controllers.yaml </parameters>
+            <!-- Namespace del robot -->
+            <robotNamespace>/cobot</robotNamespace>
         </plugin>
     </gazebo>
+
+
+
 
     <!-- Make the robot more fancy :)-->
     <gazebo reference="base_link" >

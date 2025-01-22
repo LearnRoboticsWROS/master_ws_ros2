@@ -1,0 +1,2 @@
+Invoking command in '/home/fra/master_ws_2/build/custom_robot_gazebo': /usr/bin/cmake --build /home/fra/master_ws_2/build/custom_robot_gazebo -- -j12 -l12
+Invoked command in '/home/fra/master_ws_2/build/custom_robot_gazebo' returned '2': /usr/bin/cmake --build /home/fra/master_ws_2/build/custom_robot_gazebo -- -j12 -l12
